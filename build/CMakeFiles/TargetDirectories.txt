@@ -1,6 +1,0 @@
-/home/as/net/build/CMakeFiles/rebuild_cache.dir
-/home/as/net/build/CMakeFiles/edit_cache.dir
-/home/as/net/build/CMakeFiles/net.dir
-/home/as/net/build/src/CMakeFiles/rebuild_cache.dir
-/home/as/net/build/src/CMakeFiles/edit_cache.dir
-/home/as/net/build/src/CMakeFiles/mymuduo.dir
