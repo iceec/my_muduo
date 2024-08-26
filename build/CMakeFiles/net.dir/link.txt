@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/net.dir/main.o  -o net  -Wl,-rpath,/home/as/net/build/src src/libmymuduo.so 
