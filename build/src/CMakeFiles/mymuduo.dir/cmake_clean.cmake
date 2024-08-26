@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mymuduo.dir/Buffer.o"
   "CMakeFiles/mymuduo.dir/Channel.o"
+  "CMakeFiles/mymuduo.dir/CurrentThread.o"
   "CMakeFiles/mymuduo.dir/DefaultPoller.o"
   "CMakeFiles/mymuduo.dir/EPoller.o"
+  "CMakeFiles/mymuduo.dir/EventLoop.o"
   "CMakeFiles/mymuduo.dir/Log.o"
   "CMakeFiles/mymuduo.dir/Poller.o"
   "CMakeFiles/mymuduo.dir/TimeStamp.o"

@@ -23,7 +23,7 @@ EPoller::~EPoller()
 {
     ::close(_epoll_fd);
 }
-void EPoller::updata_channel(Channel *channel)
+void EPoller::update_channel(Channel *channel)
 {
     // 看看你要现在的type 是什么样子了
     int type = channel->type();

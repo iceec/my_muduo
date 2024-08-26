@@ -1,5 +1,9 @@
 ## 生成动态库 供他人时候
-set(SRC_LIST ./Log.cpp ./TimeStamp.cpp ./Buffer.cpp ./Channel.cpp ./Poller.cpp ./DefaultPoller.cpp ./EPoller.cpp)
+set(SRC_LIST ./Log.cpp ./TimeStamp.cpp ./Buffer.cpp ./Channel.cpp
+
+./Poller.cpp ./DefaultPoller.cpp ./EPoller.cpp ./EventLoop.cpp
+
+./CurrentThread.cpp)
 
 add_library(mymuduo SHARED ${SRC_LIST})
 

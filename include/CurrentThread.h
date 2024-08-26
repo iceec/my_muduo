@@ -5,7 +5,7 @@
 namespace CurrentThread
 {
 
-    extern __thread int t_cache_tid = 0;
+    extern __thread int t_cache_tid;
 
     void cache_tid();
 

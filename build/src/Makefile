@@ -159,6 +159,21 @@ Channel.s:
 .PHONY : Channel.s
 
 # target to build an object file
+CurrentThread.o:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/CurrentThread.o
+.PHONY : CurrentThread.o
+
+# target to preprocess a source file
+CurrentThread.i:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/CurrentThread.i
+.PHONY : CurrentThread.i
+
+# target to generate assembly for a file
+CurrentThread.s:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/CurrentThread.s
+.PHONY : CurrentThread.s
+
+# target to build an object file
 DefaultPoller.o:
 	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/DefaultPoller.o
 .PHONY : DefaultPoller.o
@@ -187,6 +202,21 @@ EPoller.i:
 EPoller.s:
 	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/EPoller.s
 .PHONY : EPoller.s
+
+# target to build an object file
+EventLoop.o:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/EventLoop.o
+.PHONY : EventLoop.o
+
+# target to preprocess a source file
+EventLoop.i:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/EventLoop.i
+.PHONY : EventLoop.i
+
+# target to generate assembly for a file
+EventLoop.s:
+	cd /home/as/net/build && $(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/EventLoop.s
+.PHONY : EventLoop.s
 
 # target to build an object file
 Log.o:
@@ -248,12 +278,18 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... CurrentThread.o"
+	@echo "... CurrentThread.i"
+	@echo "... CurrentThread.s"
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
 	@echo "... EPoller.o"
 	@echo "... EPoller.i"
 	@echo "... EPoller.s"
+	@echo "... EventLoop.o"
+	@echo "... EventLoop.i"
+	@echo "... EventLoop.s"
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"

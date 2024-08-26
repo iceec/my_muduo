@@ -9,7 +9,7 @@ class EPoller : public Poller
     using ChannelList = std::vector<Channel *>;
 
 public:
-    void updata_channel(Channel *) override;                              // update 利用 epoll_ctl 进行update
+    void update_channel(Channel *) override;                              // update 利用 epoll_ctl 进行update
     void remove_channel(Channel *) override;                              // remove 对应 epoll_ctl的 del
     TimeStamp poll(int time_out_ms, ChannelList *activechannel) override; // 对应 epoll_wait
 

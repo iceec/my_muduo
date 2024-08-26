@@ -6,11 +6,15 @@ src/CMakeFiles/mymuduo.dir/Buffer.o
  /home/as/net/src/Buffer.cpp
 src/CMakeFiles/mymuduo.dir/Channel.o
  ../include/Channel.h
+ ../include/CurrentThread.h
  ../include/EventLoop.h
  ../include/Log.hpp
  ../include/NoCopy.hpp
  ../include/TimeStamp.hpp
  /home/as/net/src/Channel.cpp
+src/CMakeFiles/mymuduo.dir/CurrentThread.o
+ ../include/CurrentThread.h
+ /home/as/net/src/CurrentThread.cpp
 src/CMakeFiles/mymuduo.dir/DefaultPoller.o
  ../include/EPoller.h
  ../include/NoCopy.hpp
@@ -25,6 +29,15 @@ src/CMakeFiles/mymuduo.dir/EPoller.o
  ../include/Poller.h
  ../include/TimeStamp.hpp
  /home/as/net/src/EPoller.cpp
+src/CMakeFiles/mymuduo.dir/EventLoop.o
+ ../include/Channel.h
+ ../include/CurrentThread.h
+ ../include/EventLoop.h
+ ../include/Log.hpp
+ ../include/NoCopy.hpp
+ ../include/Poller.h
+ ../include/TimeStamp.hpp
+ /home/as/net/src/EventLoop.cpp
 src/CMakeFiles/mymuduo.dir/Log.o
  ../include/Log.hpp
  ../include/NoCopy.hpp

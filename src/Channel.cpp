@@ -4,7 +4,7 @@
 void Channel::update()
 {
     // add code ...
-    // _loop->update_channel(*this);
+     _loop->update_channel(this);
 }
 
 // 删除掉当前的channel
@@ -12,7 +12,7 @@ void Channel::update()
 void Channel::remove()
 {
     // add code ...
-    // _loop->remove_channel(*this);
+     _loop->remove_channel(this);
 }
 
 // 什么时候调用呢

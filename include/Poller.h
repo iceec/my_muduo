@@ -20,7 +20,7 @@ class Poller : NoCopy
     using ChannelList = std::vector<Channel *>;
 
 public:
-    virtual void updata_channel(Channel *) = 0;
+    virtual void update_channel(Channel *) = 0;
     virtual void remove_channel(Channel *) = 0;
     virtual TimeStamp poll(int time_out_ms, ChannelList *activechannel) = 0;
 
