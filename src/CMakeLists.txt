@@ -4,8 +4,8 @@ set(SRC_LIST ./Log.cpp ./TimeStamp.cpp ./Buffer.cpp ./Channel.cpp
 ./Poller.cpp ./DefaultPoller.cpp ./EPoller.cpp ./EventLoop.cpp
 
 ./CurrentThread.cpp ./Thread.cpp ./EventLoopThread.cpp ./EventLoopThreadPool.cpp
-q
-./InetAdress.cpp ./Socket.cpp)
+
+./InetAddress.cpp ./Socket.cpp  ./Acceptor.cpp ./TcpSever.cpp ./TcpConnection.cpp)
 
 add_library(mymuduo SHARED ${SRC_LIST})
 

@@ -23,7 +23,7 @@ uint16_t InetAddress::to_port()
     return ::ntohs(_addr.sin_port);
 }
 
-InetAddress::InetAddress(uint16_t prot, std::string ip = "127.0.0.1")
+InetAddress::InetAddress(uint16_t prot, std::string ip)
 {
     sockaddr_in addr;
     bzero(&addr, sizeof(addr));
