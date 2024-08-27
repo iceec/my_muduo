@@ -1,3 +1,7 @@
 build/
 tmp.cpp
 a.out
+c
+s
+client.cpp
+sever.cpp

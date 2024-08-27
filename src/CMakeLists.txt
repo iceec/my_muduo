@@ -3,11 +3,15 @@ set(SRC_LIST ./Log.cpp ./TimeStamp.cpp ./Buffer.cpp ./Channel.cpp
 
 ./Poller.cpp ./DefaultPoller.cpp ./EPoller.cpp ./EventLoop.cpp
 
-./CurrentThread.cpp)
+./CurrentThread.cpp ./Thread.cpp ./EventLoopThread.cpp ./EventLoopThreadPool.cpp
+q
+./InetAdress.cpp ./Socket.cpp)
 
 add_library(mymuduo SHARED ${SRC_LIST})
 
 target_include_directories(mymuduo PUBLIC ../include)
+
+target_link_libraries(mymuduo PUBLIC pthread)
 
 target_compile_options(mymuduo PUBLIC -Wall -Werror -std=c++17)
 
